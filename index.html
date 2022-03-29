@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <title>Cart Project</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    
+    <nav class="navbar navbar-expand-lg px-4">
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+        <span class="toggler-icon"><i class="fas fa-bars"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNav">
+        <ul class="navbar-nav mx-auto text-capitalize">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">about</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>
+        <div class="nav-info-items d-none d-lg-flex ">
+         
+        </div>
+      </div>
+    </nav>
+    
+    <div class="container-fluid">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center">
+          <h1 class="text-capitalize aa">welcome to <strong class="banner-title aa">cho-ca-ju </strong></h1>
+          <div class="row">
+            <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap ">
+              <a href="all.html" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 font-weight-bold" data-filter="all"> all</a>
+              <a href="cakes.html" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 font-weight-bold" data-filter="cakes">cakes</a>
+              <a href="cupcake.html" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 font-weight-bold" data-filter="cupcakes">cupcakes</a>
+              <a href="sweets.html" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 font-weight-bold" data-filter="sweets">sweets</a>
+              <a href="doughnut.html" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 font-weight-bold" data-filter="doughnuts">doughnuts</a>
+              <a href="" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2 font-weight-bold" data-filter="doughnuts">juice</a>
+            </div>
+            
+          </div>
+          
+
+        </div>
+
+
+       
+            <form>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend ">
+                  <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+                </div>
+                <input type="text" class="form-control" placeholder='search item....' id="search-item">
+              </div>
+  
+            </form>
+          
+        <div id="cart" class="cart">
+      
+          <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+            <img src="img-cart/cake-2.jpeg" class="img-fluid rounded-circle" id="item-img" alt="">
+           
+          
+          <div class="cart-item d-flex justify-content-between text-capitalize my-3">
+            <img src="img-cart/doughnut-2.jpeg" class="img-fluid rounded-circle" id="item-img" alt="">
+            <div class="cart-item-text">
+
+              <p id="cart-item-title" class="font-weight-bold mb-0">cart item</p>
+              <span>$</span>
+              <span id="cart-item-price" class="cart-item-price" class="mb-0">10.99</span>
+            </div>
+            <a href="#" id='cart-item-remove' class="cart-item-remove">
+              <i class="fas fa-trash"></i>
+            </a>
+          </div>
+          <!--end of  cart item -->
+          <!-- cart total -->
+          <div class="cart-total-container d-flex justify-content-around text-capitalize mt-5">
+            <h5>total</h5>
+            <h5> $ <strong id="cart-total" class="font-weight-bold">10.00</strong> </h5>
+          </div>
+          <!--end cart total -->
+          <!-- cart buttons -->
+          <div class="cart-buttons-container mt-3 d-flex justify-content-between">
+            <a href="#" id="clear-cart" class="btn btn-outline-secondary btn-black text-uppercase">clear cart</a>
+            <a href="#" class="btn btn-outline-secondary text-uppercase btn-pink">checkout</a>
+          </div>
+          <!--end of  cart buttons -->
+          <!--  -->
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!--end of  banner  -->
+  </header>
+  <!-- header -->
+  <!-- about us -->
+  <section class="about py-5" id="about">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6 my-5">
+          <h1 class="text-capitalizenew">about <strong class="banner-title ">us</strong></h1>
+          <p class="my-4 text-muted w-75">The course consists of sweet foods, such as confections, and possibly a beverage such as dessert wine and liqueur. In some parts of the world, such as much of Central Africa and West Africa, and most parts of China, there is no tradition of a dessert course to conclude a meal.
+
+            The term dessert can apply to many confections, such as biscuits, cakes, cookies, custards, gelatins, ice creams, pastries, pies, puddings, macaroons, sweet soups, tarts, and fruit salad. Fruit is also commonly found in dessert courses because of its naturally occurring sweetness. Some cultures sweeten foods that are more commonly savory to create desserts.</p>
+          <a href="#" class="btn btn-outline-secondary btn-black text-uppercase ">explore</a>
+
+        </div>
+        <div class="col-10 mx-auto col-md-6 align-self-center my-5">
+          <div class="about-img__container">
+            <img src="img/sweets-1.jpeg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section
+      class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+    >
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Cho-Ca-Ju
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+         
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+           
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i> Dhaka,Bangladesh</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              eteka15-12121@diu.edu.bd
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01743177481</p>
+            <p><i class="fas fa-print me-3"></i> + 01743177481</p>
+          </div>
+         
+        </div>
+        
+      </div>
+    </section>
+   
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:Tumpa
+      <a class="text-reset fw-bold" href=""></a>
+    </div>
+   
+  </footer>
+  </body>
+</html>
+
+  
